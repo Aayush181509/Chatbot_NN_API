@@ -1,0 +1,81 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+
+        {"tag": "payments",
+         "patterns": ["Do you take online payments?", "Are you cash only?","What are the means of payment?" ],
+         "responses": ["We accept payment via khalti", "We accept cash as well as online payment"]
+        },
+        {"tag": "open_today",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open all day every day"]
+        },
+        {"tag": "create_account",
+          "patterns": ["How can i create my account?","How to register?","I don't have an online account","I need help creating an online account"],
+          "responses":["Click login and you will find register button. After that provide us your required information and your account will be created"]
+        },
+        {"tag": "buy_books",
+          "patterns": ["How to buy books?","How can i buy?","How to purchase?","What are the steps to buy books?"],
+          "responses": ["Click buy on your desired books. Fill out the necessary details and make payments. You will then recieve a receipt."]
+        },
+        {"tag": "account",
+          "patterns": ["Can i buy books without registering?","Do i need to create an account to purchase","Can't i buy books without online account?"],
+          "responses": ["You need to be registered into our system to purchase books","You must have an account to buy","You must be logged in with your account to buy books."]
+        },
+        {"tag": "Cancel_order",
+          "patterns": ["Cancel my order","Can i cancel my order?","How can i cancel my order","I need help cancelling my order?","I need help for cancelling my order"],
+          "responses": ["For order cancellation, please contact us through the phone number."]
+        },
+        {"tag": "Contact_customer_service",
+          "patterns": ["How can i reach the customer service?","I want to talk ","can you tell me the email or phone number to contact customer support, please??","how to talk to Client Service","i want to know if there is a free phone number to contact customer service","I want information, help me talk to Customer Support","I want information and I want to send an email to Customer Support","please, can u find information about the email address to contact Customer Service?","Give me your contact information."],
+          "responses": ["You can reach the customer service through either email(XXX@gmail.com or phone number(XXXXXXXXXX)"]
+        },
+        {"tag": "Delivery_options",
+          "patterns": ["How to receive my order?","What are the delivery options?","Do you carry out home delivery?","How to pickup my ordered items?","i want to know if there is a free phone number to contact customer service","Can i get my item to be home delivered?","I want my books delivered at my home"],
+          "responses": ["We carryout home delivery as well as pickups. For home delivery extra charges will be added"]
+        },
+        {"tag": "Delivery_period",
+          "patterns": ["How long will it take for my order to be delivered?","When will my book arrive?","Tell me the delivery period","Can you tell me how soon can i expect my books to arrive?","What is your delivery period?","How soon will i have my books delivered?"],
+          "responses": ["Our delivery period is usually 2-3 days. If it is taking longer than that, please contact the customer support"]
+        },
+        {"tag": "Blog",
+          "patterns": ["Can i write my original articles on this website?","What can you do in the blog section?","What is the blog section for?","Is there any feature of writing original contents in this website?"],
+          "responses": ["Blog section is for writing original articles and contents to share to the public."]
+        },
+        {"tag": "Blog_direction",
+          "patterns": ["How to write my original articles on this website?","How to use the blog feature?","How to write my blogs?","Publish an article or blog."],
+          "responses": ["You can write your content by going to the blog section. You need to be logged in to publish your content. In the blog section you can write and publish your article."]
+        },
+        {"tag": "Complaint",
+          "patterns": ["How to report my complaints?","I want to lodge my complaint","I have few criticisms.","I didn't like your service.","I am not happy with the service","It seems i can't place an order","There is a problem while writing blogs.","I am having payment issues."],
+          "responses": ["Sorry for the inconvenience. You can lodge your complaint by contacting us through email and phone number. We will try to do better next time."]
+        },
+        {"tag": "Book_Review",
+          "patterns": ["Can i place a review on the book?","I like the books you have.","I want to leave star reviews."],
+          "responses": ["You can place your review on the books you like with star ratings."]
+        },
+         {"tag": "Blog_Review",
+          "patterns": ["Can i place a review on the article?","I like the articles published on your website.","Can i give my genuine suggestions to the blog writers?"],
+          "responses": ["You can place your review on the blog you like by leaving your reviews in the comment section."]
+        },
+        {"tag": "Refund",
+          "patterns": ["Can i get refund?","What about refund.","What are your refund policies?"],
+          "responses": ["For refund contact us directly through email or phone number."]
+        }
+   ]
+}
